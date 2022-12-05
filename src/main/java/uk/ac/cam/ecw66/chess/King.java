@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class King extends Piece {
+    public static int KING_VALUE = 10000;
     public King(Position pos, PieceColor color, Board board) {
         super('K', pos, color, board);
     }

@@ -26,8 +26,6 @@ import java.util.List;
 
 public class Piece {
 
-    public static int KING_VALUE = 10000;
-
     private Position position;
     private final PieceColor pieceColor;
     private final Board board;
