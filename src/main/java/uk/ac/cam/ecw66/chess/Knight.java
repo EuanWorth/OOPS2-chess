@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Knight extends Piece {
     public Knight(Position pos, PieceColor color, Board board) {
-        super('B', pos, color, board);
+        super('N', pos, color, board);
     }
 
     @Override
@@ -31,9 +31,4 @@ public class Knight extends Piece {
 
     @Override
     public int value() {return 3;}
-
-    private void computeKnightNextPositions(List<Position> nextPositions) {
-        // directions a knight can travel in.
-
-    }
 }

@@ -10,7 +10,7 @@ import static uk.ac.cam.ecw66.chess.Position.Rank.TWO;
 
 public class Pawn extends Piece{
     public Pawn(Position pos, PieceColor color, Board board) {
-        super('B', pos, color, board);
+        super('P', pos, color, board);
     }
 
     @Override
@@ -62,8 +62,5 @@ public class Pawn extends Piece{
     @Override
     public int value() {return 1;}
 
-    private void computeKnightNextPositions(List<Position> nextPositions) {
-        // directions a knight can travel in.
 
-    }
 }
