@@ -23,4 +23,5 @@ public class Queen extends Piece {
 
     @Override
     public int value() {return 10;}
+    public char name() {return 'Q';}
 }

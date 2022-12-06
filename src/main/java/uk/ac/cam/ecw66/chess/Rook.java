@@ -22,4 +22,6 @@ public class Rook extends Piece {
 
         @Override
         public int value() {return 5;}
+
+        public char name() {return 'R';}
 }

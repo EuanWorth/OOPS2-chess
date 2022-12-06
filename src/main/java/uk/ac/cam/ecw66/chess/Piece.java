@@ -24,7 +24,7 @@ import static uk.ac.cam.ecw66.chess.Position.Rank.TWO;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Piece {
+public abstract class Piece {
 
     private Position position;
     private final PieceColor pieceColor;

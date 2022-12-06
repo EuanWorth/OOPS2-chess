@@ -31,4 +31,6 @@ public class Knight extends Piece {
 
     @Override
     public int value() {return 3;}
+
+    public char name() {return 'N';}
 }

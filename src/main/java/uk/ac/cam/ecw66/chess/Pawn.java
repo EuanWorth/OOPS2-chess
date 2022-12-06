@@ -62,5 +62,5 @@ public class Pawn extends Piece{
     @Override
     public int value() {return 1;}
 
-
+    public char name() {return 'P';}
 }

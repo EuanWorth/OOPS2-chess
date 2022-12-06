@@ -30,4 +30,6 @@ public class King extends Piece {
 
     @Override
     public int value() {return KING_VALUE;}
+
+    public char name() {return 'K';}
 }
